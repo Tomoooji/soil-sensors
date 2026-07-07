@@ -15,6 +15,7 @@ Soil sensors (EC/TDS, temperature, soil moisture) for Arduino UNO
 - https://qiita.com/hamadaira0412/items/dfad0e8c9658a588c2dd
 - https://hackaday.io/project/7008-hacking-the-way-to-growing-food/log/24646-three-dollar-ec-ppm-meter-arduino
 - https://www.makers-academy.net/2021/09/16/arduino_ec/
+- https://randomnerdtutorials.com/arduino-tds-water-quality-sensor/
   ...
 
 ## method
@@ -24,6 +25,9 @@ Soil sensors (EC/TDS, temperature, soil moisture) for Arduino UNO
 ![](assets/temp_formula.png)
 
 ### tds/ec
+
+![](assets\TDS-Sensor-7.jpg)
+
 
 測定方法は2個の電極を水溶液に浸け、測定した電気抵抗から算出します。  
 
