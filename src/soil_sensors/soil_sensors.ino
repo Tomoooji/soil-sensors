@@ -10,8 +10,8 @@ Arduino UNO
 enum PIN_NUM {
   PIN_THERMO = 33,
   PIN_TDS = 32,
-  PIN_MOIST1 = 34,
-  PIN_MOIST2 = 35
+  PIN_MOIST1 = 35,
+  PIN_MOIST2 = 34
 };
 
 namespace THERMO {
@@ -74,6 +74,10 @@ void loop() {
   Serial.print(temp,2);
   Serial.print(",");
   Serial.print(ec,2);
+  Serial.print(",");
+  Serial.print(analogRead(PIN_MOIST1));
+  Serial.print(",");
+  Serial.print(analogRead(PIN_MOIST2));
   Serial.println();
   delay(10);
 }
